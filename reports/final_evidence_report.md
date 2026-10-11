@@ -27,4 +27,4 @@ The tracker contains sample policies, controls, risks, incidents, metrics, and a
 - `evidence/command-outputs/governance-dashboard.json`
 
 ## Limitations
-The lab is isolated and uses synthetic data. The work does not establish successful exploitation or data exfiltration. Screenshots should be added to `evidence/screenshots/` and labelled with the corresponding step number and description before final submission.
+The lab is isolated and uses synthetic data. The work does not establish successful exploitation or data exfiltration. Eighteen screenshot files are included in `evidence/screenshots/`. They provide supporting visual evidence for the environment, database, scanning, attack simulation, controls, and governance dashboard. File names are preserved as captured.

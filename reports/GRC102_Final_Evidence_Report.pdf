@@ -12,7 +12,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
 endobj
 5 0 obj
-<< /Length 2780 >>
+<< /Length 2893 >>
 stream
 BT
 /F1 10 Tf
@@ -106,9 +106,13 @@ T*
 T*
 (The lab is isolated and uses synthetic data. The work does not establish successful) Tj
 T*
-(exploitation or data exfiltration. Screenshots should be added to evidence/screenshots/) Tj
+(exploitation or data exfiltration. Eighteen screenshot files are included in) Tj
 T*
-(and labelled with the corresponding step number and description before final submission.) Tj
+(evidence/screenshots/. They provide supporting visual evidence for the environment,) Tj
+T*
+(database, scanning, attack simulation, controls, and governance dashboard. File names) Tj
+T*
+(are preserved as captured.) Tj
 T*
 ET
 endstream
@@ -124,5 +128,5 @@ xref
 trailer
 << /Size 6 /Root 1 0 R >>
 startxref
-3143
+3256
 %%EOF
