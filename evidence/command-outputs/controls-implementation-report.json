@@ -1,0 +1,48 @@
+{
+  "title": "GRC102 Part 3 - Governance Controls Implementation",
+  "generated_utc": "2026-10-11T13:17:50.145533+00:00",
+  "scope": "Control register and verification evidence for the isolated training lab.",
+  "important_note": "This script records control implementations and verification requirements. It does not change live credentials, patch software, or claim unverified controls are effective.",
+  "controls": [
+    {
+      "id": "CTRL-01",
+      "name": "Privileged credential management",
+      "risk": "Weak or default database credentials",
+      "implementation": "Document credential risk; require strong unique secrets, restrict root access, and avoid storing passwords in scripts.",
+      "verification": "Configuration review required; this script does not change the live database password.",
+      "status": "RECOMMENDATION_RECORDED"
+    },
+    {
+      "id": "CTRL-02",
+      "name": "Network segmentation verification",
+      "risk": "Unapproved application-to-database communication",
+      "implementation": "Keep services on the designated internal lab network and document expected communication paths.",
+      "verification": "Network is configured as internal; web-to-database connectivity test timed out and requires investigation.",
+      "status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "id": "CTRL-03",
+      "name": "Vulnerability and patch management",
+      "risk": "Outdated application components",
+      "implementation": "Inventory application versions, assess vendor advisories, apply supported security updates, and verify remediation.",
+      "verification": "Image inventory and patch validation should be completed; this script does not patch the application.",
+      "status": "REMEDIATION_REQUIRED"
+    },
+    {
+      "id": "CTRL-04",
+      "name": "Logging and incident evidence",
+      "risk": "Insufficient evidence for incident investigation",
+      "implementation": "Retain timestamped test results and review application, database, and security logs.",
+      "verification": "Simulation JSON log exists and records the observed results.",
+      "status": "EVIDENCE_RECORDED"
+    },
+    {
+      "id": "CTRL-05",
+      "name": "Governance accountability",
+      "risk": "Unowned or overdue corrective actions",
+      "implementation": "Assign an owner, priority, due date, and evidence-based closure test to each finding.",
+      "verification": "Actions are documented below; operational ownership must be assigned by the organisation.",
+      "status": "RECOMMENDATION_RECORDED"
+    }
+  ]
+}

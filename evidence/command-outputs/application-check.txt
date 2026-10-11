@@ -1,0 +1,8 @@
+ICDFA GRC102 Practical Lab 8
+Struts2 Application Availability Check
+Timestamp UTC: 2026-10-10T22:01:13.748520+00:00
+Target: http://127.0.0.1:8080/ (checked inside web_server container)
+HTTP status: 200
+Command exit code: 0
+Error: None
+Assessment: Availability check only; vulnerability not confirmed.

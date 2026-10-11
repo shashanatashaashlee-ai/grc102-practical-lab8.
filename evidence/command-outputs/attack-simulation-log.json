@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-10-11T13:07:36.077626+00:00",
+  "scope": "Authorised isolated ICDFA lab containers",
+  "note": "Configuration and connectivity checks only. This script does not exploit the application or extract data.",
+  "results": [
+    {
+      "check": "Web application response",
+      "timestamp_utc": "2026-10-11T13:07:30.599199+00:00",
+      "return_code": 0,
+      "output": "HTTP 200",
+      "error": ""
+    },
+    {
+      "check": "Database accepts configured root password",
+      "timestamp_utc": "2026-10-11T13:07:31.000425+00:00",
+      "return_code": 0,
+      "output": "5.7.44",
+      "error": "mysql: [Warning] Using a password on the command line interface can be insecure."
+    },
+    {
+      "check": "Database connectivity from web container",
+      "timestamp_utc": "2026-10-11T13:07:36.077489+00:00",
+      "return_code": 28,
+      "output": "",
+      "error": "curl: (28) Connection timed out after 5000 milliseconds"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2780 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+14 TL
+( GRC102 Practical Lab Assessment ? Evidence Report) Tj
+T*
+() Tj
+T*
+(Date: 11 October 2026) Tj
+T*
+(Environment: GitHub Codespaces and isolated Docker lab) Tj
+T*
+() Tj
+T*
+( Part 1 ? Environment and scanning) Tj
+T*
+(The lab includes a web application, MySQL database, monitoring container, SQL) Tj
+T*
+(initialisation script, and vulnerability-scanning scripts. Recorded evidence includes) Tj
+T*
+(application-check.txt and vulnerability-report.json.) Tj
+T*
+() Tj
+T*
+(The web application returned HTTP 200 in the recorded check. The scanner reported) Tj
+T*
+(configuration concerns, including acceptance of the configured MySQL root credential.) Tj
+T*
+(Scanner results are indicators for review and do not independently prove exploitation.) Tj
+T*
+() Tj
+T*
+( Part 2 ? Failure analysis) Tj
+T*
+(attack-simulation-log.json records HTTP 200, MySQL version 5.7.44, and a web-to-database) Tj
+T*
+(connectivity timeout. The timeout's cause was not established. The governance failure) Tj
+T*
+(report documents the observations and recommendations. The Equifax comparison discusses) Tj
+T*
+(patch management, detection, accountability, and verification.) Tj
+T*
+() Tj
+T*
+( Part 3 ? Controls) Tj
+T*
+(The controls register documents credential management, network segmentation) Tj
+T*
+(verification, vulnerability and patch management, evidence retention, and governance) Tj
+T*
+(accountability. The post-control report distinguishes recorded recommendations from) Tj
+T*
+(controls that have been operationally implemented and verified.) Tj
+T*
+() Tj
+T*
+( Part 4 ? Governance metrics) Tj
+T*
+(The tracker contains sample policies, controls, risks, incidents, metrics, and audit) Tj
+T*
+(records. The dashboard showed patch compliance of 85% against a 95% target, remediation) Tj
+T*
+(time of 12 days against a 7-day target, and one security incident against a target of) Tj
+T*
+(zero. Metric status logic should be checked so that adverse values are not labelled) Tj
+T*
+(Green.) Tj
+T*
+() Tj
+T*
+( Evidence index) Tj
+T*
+(- evidence/command-outputs/application-check.txt) Tj
+T*
+(- evidence/command-outputs/vulnerability-report.json) Tj
+T*
+(- evidence/command-outputs/attack-simulation-log.json) Tj
+T*
+(- evidence/command-outputs/governance-failure-report.json) Tj
+T*
+(- evidence/command-outputs/controls-implementation-report.json) Tj
+T*
+(- evidence/command-outputs/post-control-verification.json) Tj
+T*
+(- evidence/command-outputs/governance-dashboard.json) Tj
+T*
+() Tj
+T*
+( Limitations) Tj
+T*
+(The lab is isolated and uses synthetic data. The work does not establish successful) Tj
+T*
+(exploitation or data exfiltration. Screenshots should be added to evidence/screenshots/) Tj
+T*
+(and labelled with the corresponding step number and description before final submission.) Tj
+T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3143
+%%EOF
